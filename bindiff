@@ -1,0 +1,4 @@
+#!/bin/bash
+hexdump -C $1 > /tmp/1.txt
+hexdump -C $2 > /tmp/2.txt
+diff /tmp/1.txt /tmp/2.txt 
